@@ -45,7 +45,8 @@
     "jest": "^23.6.0",
     "prettier": "^1.15.3",
     "prettier-check": "^2.0.0",
-    "pretty-quick": "^1.8.0"
+    "pretty-quick": "^1.8.0",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "@babel/runtime": "^7.2.0"
