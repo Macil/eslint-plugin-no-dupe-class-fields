@@ -1,4 +1,16 @@
+import rule from './rule';
+
 export default {
-  a: 5,
-  b: 6
+  configs: {
+    recommended: {
+      plugins: ['no-dupe-class-fields'],
+      rules: {
+        'no-dupe-class-fields/$': ['error'],
+        'no-dupe-class-members': ['off']
+      }
+    }
+  },
+  rules: {
+    $: rule
+  }
 };
