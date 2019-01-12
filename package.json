@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-dupe-class-fields",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint rule to detect when a class has duplicate properties and methods.",
   "main": "js/index.js",
   "repository": "https://github.com/Macil/eslint-plugin-no-dupe-class-fields",
