@@ -1,0 +1,10 @@
+*~
+.DS_Store
+/node_modules
+npm-debug.log
+/src
+*.test.*
+__tests__
+/.circleci
+/yarn.lock
+.babelrc
