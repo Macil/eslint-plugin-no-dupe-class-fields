@@ -1,7 +1,7 @@
-import RuleTester from 'eslint/lib/testers/rule-tester';
+import { RuleTester } from 'eslint/lib/rule-tester';
 
 const ruleTester = new RuleTester({
-  parser: 'babel-eslint'
+  parser: require.resolve('babel-eslint')
 });
 
 import rule from './rule';
