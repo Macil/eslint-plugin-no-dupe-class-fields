@@ -29,6 +29,8 @@ ESLint does not support class properties by default, so you must currently use
 the [babel-eslint](https://www.npmjs.com/package/babel-eslint) parser with ESLint
 for this plugin to detect class properties.
 
+This plugin is not recommended for use with Typescript because Typescript already does this check itself, and this plugin will incorrectly flag method overloads in type definitions.
+
 ## Configuration
 
 1. Install babel-eslint and this plugin: `npm install --save-dev babel-eslint eslint-plugin-no-dupe-class-fields` or `yarn add --dev babel-eslint eslint-plugin-no-dupe-class-fields`.
