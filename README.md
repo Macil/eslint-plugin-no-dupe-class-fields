@@ -5,6 +5,8 @@
 This project is an ESLint plugin which detects when classes have duplicate
 fields, including methods and properties.
 
+**Update: This plugin is unnecessary now as class properties have become a standardized part of Javascript and ESLint, and ESLint's own [no-dupe-class-members](https://eslint.org/docs/rules/no-dupe-class-members) rule has solved the issue that this project was made to work around.**
+
 ```js
 class Foo {
   bar = 5;
